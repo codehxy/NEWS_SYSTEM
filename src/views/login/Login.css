@@ -1,0 +1,24 @@
+.loginBox {
+    background: rgba(35, 39, 65, 0.3);
+    height: 100vh;
+}
+
+.formBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .6);
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    z-index: 55;
+}
+
+.topBox {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: #fff;
+}
