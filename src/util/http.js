@@ -4,7 +4,7 @@ import { changeLoading } from "../redux/reducers/LoadingReducer";
 
 
 
-axios.defaults.baseURL = "http://localhost:5000"
+axios.defaults.baseURL = "https://news-system-n6y0rk4xb-codehxy.vercel.app/:5000"
 
 
 axios.interceptors.request.use(function (config) {
